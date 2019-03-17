@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url("../images/fancy-cushion/fancy-cushion.png");
+    height: 724px;
+}
+h1{
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    float: right;
+    padding: 20px;
+    margin-right: 10px;
+}
+a:hover{
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+header{
+    height: 86px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #777777;
+    background: white;
+
+}
+.name{
+    background: #4aaaa5;
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    height: 46px;
+    text-align: center;
+    padding: 20px;
+}
+.name h1{
+    color: white;
+}
+.maincontent{
+    border: 1px solid #777777;
+    width: 960px;
+    left: 18%;
+    position: relative;
+    padding: 40px;
+    box-shadow: 5px 5px 4px #777777;
+    background: white;
+}
+.maincontent img{
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+.maincontent p{
+    margin-top: 20px;
+}
+.title{
+    border-bottom: 2px solid #777777;
+    padding-bottom: 20px;
+}
+footer{
+    border-top: 10px solid #4aaaa5;
+    background: #777777;
+    height: 57px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+.navbar{
+    margin-right: 10px;
+}
+.image{
+    width: 280px;
+    height: 175px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+    background-size: cover;
+    background-position-x: -40px;
+    box-shadow: 5px 5px 10px #777777;
+}
+.indent{
+    text-align: center;
+    padding: 20px;
+    background:rgba(74,170,165, 0.9);
+    position: absolute;
+    bottom: 0px;
+    display: inline;
+    width: 240px;
+    color: white;
+}
+.a{
+    background-image: url(../images/event-support.jpg);
+    float: left;
+}
+.b{
+    background-image: url(../images/fun-masala.jpg);
+    float: left;
+}
+.c{
+    background-image: url(../images/luca-portfolio.jpg);
+    float: left;
+}
+.d{
+    background-image: url(../images/mario-world.jpg);
+}
+.e{
+    background-image: url(../images/open-mic.jpg);
+}
+.image:hover{
+    transform: scale(1.1);
+}
+form{
+    margin: 10px;
+    height: 400px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.message{
+    height: 200px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background: #4aaaa5;
+    box-shadow: 5px 5px 5px #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+}
+textarea{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 768px){
+body{
+}
+.navbar{
+    padding: 2px;
+    margin: 20px 0px 0px 20px;
+    font-size: 15px;
+}
+.name{
+    float: left;
+    font-size: 13px;
+}
+.maincontent{
+width: 400px;
+}
+.image{
+    width: 150px;
+    height: 100px;
+}
+.indent{
+    width: 110px;
+    font-size: 10px;
+}
+input{
+    width: 300px;
+}
+#blog{
+    width: 300px;
+}
+}
+@media only screen and (max-width: 320px){
+    body{
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+    }
+    header{
+        height: 20px;
+        width: 320px;
+    }
+    .name{
+        width: 60px;
+        height: 14px;
+        font-size: 3px;
+        padding: 7px 2px 2px 2px ;
+    }
+    h2{
+        font-size: 7px;
+    }
+    p{
+        font-size: 5px;
+    }
+    .navbar{
+        padding: 0px ;
+        margin: 2px;
+    }
+    .maincontent{
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: 3px 3px 0.5px #777777;
+    }
+    .maincontent p{
+        margin-top: 4px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    footer{
+        width: 320px;
+        height: 10px;
+        position: inherit;
+        border-top: 2px solid #4aaaa5;
+    }
+    .title{
+        padding-bottom: 4px;
+        border-bottom: 1px solid #777777;
+    }
+    .image{
+        width: 80px;
+        height: 40px;
+        left: 0px
+    }
+    .indent{
+        width: 80px;
+        font-size: 4px;
+        padding: 3px 0px;
+    }
+    label{
+        font-size: 4px;
+    }
+    input{
+        width: 100px;
+        height: 4px;
+        padding: 3px;
+        margin: 2px 2px 2px 10px;
+    }
+    .button{
+        width: 40px;
+        height: 20px;
+        font-size: 3px;
+    }
+    #blog{
+        width: 100px;
+        height: 30px;
+    }
+    form{
+        height: 170px;
+    }
+    
+}
