@@ -245,7 +245,9 @@ input{
     .image{
         width: 80px;
         height: 40px;
-        left: 0px
+        left: 0px;
+        background-position-x: center;
+        background-repeat: no-repeat;
     }
     .indent{
         width: 80px;
