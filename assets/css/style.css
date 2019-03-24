@@ -81,10 +81,10 @@ header{
 footer{
     border-top: 10px solid #4aaaa5;
     background: #777777;
-    height: 57px;
+    height: 47px;
     width: 100%;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
 }
 .navbar{
     margin-right: 10px;
@@ -163,117 +163,87 @@ textarea{
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media only screen and (max-width: 768px){
-body{
-}
-.navbar{
-    padding: 2px;
-    margin: 20px 0px 0px 20px;
-    font-size: 15px;
-}
-.name{
-    float: left;
-    font-size: 13px;
-}
-.maincontent{
-width: 400px;
-}
-.image{
-    width: 150px;
-    height: 100px;
-}
-.indent{
-    width: 110px;
-    font-size: 10px;
-}
-input{
-    width: 300px;
-}
-#blog{
-    width: 300px;
-}
-}
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 980px){
     body{
-        width: 200px;
-        height: 200px;
-        background-size: contain;
+        width: 980px;
     }
     header{
-        height: 20px;
-        width: 320px;
-    }
-    .name{
-        width: 60px;
-        height: 14px;
-        font-size: 3px;
-        padding: 7px 2px 2px 2px ;
-    }
-    h2{
-        font-size: 7px;
-    }
-    p{
-        font-size: 5px;
+        width: 980px;
     }
     .navbar{
-        padding: 0px ;
-        margin: 2px;
+        display: inline-block;
+    }
+    .a1{
+        margin-right: 15%;
     }
     .maincontent{
-        width: 200px;
-        padding: 10px;
-        margin-bottom: 20px;
-        box-shadow: 3px 3px 0.5px #777777;
-    }
-    .maincontent p{
-        margin-top: 4px;
-    }
-    img{
-        width: 50px;
-        height: 50px;
+        width: 550px;
     }
     footer{
-        width: 320px;
-        height: 10px;
-        position: inherit;
-        border-top: 2px solid #4aaaa5;
-    }
-    .title{
-        padding-bottom: 4px;
-        border-bottom: 1px solid #777777;
-    }
-    .image{
-        width: 80px;
-        height: 40px;
-        left: 0px;
-        background-position-x: center;
-        background-repeat: no-repeat;
-    }
-    .indent{
-        width: 80px;
-        font-size: 4px;
-        padding: 3px 0px;
-    }
-    label{
-        font-size: 4px;
+        width: 980px;
     }
     input{
-        width: 100px;
-        height: 4px;
-        padding: 3px;
-        margin: 2px 2px 2px 10px;
-    }
-    .button{
-        width: 40px;
-        height: 20px;
-        font-size: 3px;
+        width: 550px;
     }
     #blog{
-        width: 100px;
-        height: 30px;
+        width: 550px;
     }
-    form{
-        height: 170px;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 768px;
     }
-    
+    .navbar{
+        padding: 2px;
+        margin: 20px 0px 0px 20px;
+        font-size: 15px;
+        
+    }
+    header{
+        width: 768px;
+    }
+    .a1{
+        margin-right: 10%;
+    }
+
+    .name{
+        float: left;
+        font-size: 13px;
+    }
+    .maincontent{
+    width: 400px;
+    }
+    .image{
+        width: 150px;
+        height: 100px;
+    }
+    .indent{
+        width: 110px;
+        font-size: 10px;
+    }
+    input{
+        width: 300px;
+    }
+    #blog{
+        width: 300px;
+    }
+    footer{
+        width: 768px;
+    }
+}
+@media only screen and (max-width: 640px){
+    body{
+        width: 640px;
+    }
+    .a1{
+        margin-right: 5%;
+    }
+    header{
+        width: 640px;
+    }
+    footer{
+        width: 640px;
+    }
+
 }
